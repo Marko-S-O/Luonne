@@ -1,2 +1,2 @@
-# Luonne
-Luonneanalyyttisen kehopsykoterapiayhdistyksen julkinen sivusto
+# Luonneanalyyttisen kehopsykoterapiayhdistyksen sivusto
+Suomen luonneanalyyttisen kehopsykoterapiayhdistyksen julkisen sivuston modernisoitu version

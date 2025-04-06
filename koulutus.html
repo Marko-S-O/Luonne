@@ -116,13 +116,17 @@
         }
 
         nav {
-          flex-direction: column;
-          align-items: center;
+          flex-wrap: nowrap;
+          overflow-x: auto;
+          justify-content: flex-start;
+          padding: 0.5rem;
         }
 
         nav a {
-          font-size: 1rem;
-          padding: 0.5rem;
+          white-space: nowrap;
+          flex: 0 0 auto;
+          font-size: 0.95rem;
+          padding: 0.5rem 0.7rem;
         }
 
         footer {
@@ -150,8 +154,6 @@
       <div id="textColumn">
         <div id="tulip-top"></div>
         <h1>Koulutus</h1>
-        <h2>Lyhyet koulutukset ja kurssit: kts. Tapahtumia-osio</h2>
-        <hr />
         <h2>Kehopsykoterapiakoulutus, luonneanalyyttinen kehopsykoterapia</h2>
         <p>
           Yhdistys järjesti psykoterapiakoulutusta vuosina 1994-2011.
@@ -184,6 +186,8 @@
           <a href="yhdistys.htm">» Yhdistys</a>
         </p>
       </div>
+      <hr />
+      <h2>Lyhyet koulutukset ja kurssit: kts. Tapahtumia-osio</h2>
     </main>
     <footer>
       <p>

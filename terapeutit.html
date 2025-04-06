@@ -116,13 +116,17 @@
         }
 
         nav {
-          flex-direction: column;
-          align-items: center;
+          flex-wrap: nowrap;
+          overflow-x: auto;
+          justify-content: flex-start;
+          padding: 0.5rem;
         }
 
         nav a {
-          font-size: 1rem;
-          padding: 0.5rem;
+          white-space: nowrap;
+          flex: 0 0 auto;
+          font-size: 0.95rem;
+          padding: 0.5rem 0.7rem;
         }
 
         footer {
@@ -150,6 +154,7 @@
       <div id="textColumn">
         <div id="tulip-top"></div>
         <h1>Terapeutit</h1>
+
         <p class="contact">
           <img
             align="right"

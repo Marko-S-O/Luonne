@@ -116,13 +116,17 @@
         }
 
         nav {
-          flex-direction: column;
-          align-items: center;
+          flex-wrap: nowrap;
+          overflow-x: auto;
+          justify-content: flex-start;
+          padding: 0.5rem;
         }
 
         nav a {
-          font-size: 1rem;
-          padding: 0.5rem;
+          white-space: nowrap;
+          flex: 0 0 auto;
+          font-size: 0.95rem;
+          padding: 0.5rem 0.7rem;
         }
 
         footer {
@@ -172,7 +176,7 @@
         Suomen Luonneanalyyttinen Kehopsykoterapiayhdistys ry<br />
         Lönnrotinkatu 42, 00180 Helsinki<br />
         <a href="mailto:info@kehopsykoterapia.fi" style="color: #f4dada"
-          >info@kehopsykoterapia.fi</a
+          >info@luonne.fi</a
         >
       </p>
     </footer>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Suomen Luonneanalyyttinen Kehopsykoterapiayhdistys ry</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;family=Lora:ital,wght@0,400;0,600;1,400&amp;display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --main-bg: #fdf9f6;
+        --accent: #4a6c59;
+        --highlight: #f4dada;
+        --text-dark: #333;
+        --max-width: 960px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Open Sans", sans-serif;
+        background-color: var(--main-bg);
+        color: var(--text-dark);
+        line-height: 1.6;
+      }
+
+      header {
+        background: var(--accent);
+        color: white;
+        padding: 1.4rem 1rem;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-family: "Lora", serif;
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #293835;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 1.1;
+      }
+
+      nav {
+        background: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1rem;
+        border-bottom: 1px solid #ddd;
+        gap: 0.5rem;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: var(--accent);
+        font-weight: 600;
+        padding: 0.3rem 0.7rem;
+        border-radius: 4px;
+        transition: background 0.2s ease;
+      }
+
+      nav a:hover {
+        background: #f0f0f0;
+      }
+
+      .container {
+        max-width: var(--max-width);
+        margin: auto;
+        padding: 2rem 1.5rem;
+      }
+
+      .hero-image {
+        display: block;
+        width: 100%;
+        max-height: 600px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 2rem;
+      }
+
+      footer {
+        background: var(--accent);
+        color: white;
+        text-align: center;
+        padding: 2rem 1rem;
+        margin-top: 2rem;
+        font-size: 0.9rem;
+      }
+
+      h1,
+      h2 {
+        font-family: "Lora", serif;
+        color: var(--accent);
+      }
+
+      @media (max-width: 768px) {
+        header h1 {
+          font-size: 1.5rem;
+          line-height: 1.1;
+        }
+
+        h2 {
+          font-size: 1.2rem;
+          line-height: 1.2;
+        }
+
+        .container {
+          padding: 1.5rem 1rem;
+        }
+
+        nav {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        nav a {
+          font-size: 1rem;
+          padding: 0.5rem;
+        }
+
+        footer {
+          font-size: 0.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Suomen Luonneanalyyttinen Kehopsykoterapiayhdistys ry</h1>
+    </header>
+    <nav>
+      <a href="index.html">Etusivu</a>
+      <a href="terapia.html">Terapia</a>
+      <a href="terapeutit.html">Terapeutit</a>
+      <a href="yhdistys.html">Yhdistys</a>
+      <a href="tapahtumia.html">Tapahtumia</a>
+      <a href="koulutus.html">Koulutus</a>
+      <a href="artikkelit.html">Artikkeleita</a>
+      <a href="linkit.html">Linkit</a>
+      <a href="yhteystiedot.html">Yhteystiedot</a>
+    </nav>
+    <main class="container">
+      <div id="textColumn">
+        <div id="tulip-top"></div>
+        <h1>Artikkeleita</h1>
+        <p>
+          Markku Välimäki: 
+          <a href="artikkelit/w-reich.htm"
+            ><br />
+            Wilhelm Reich ja hänen elämänsä</a
+          >
+        </p>
+        <p>
+          Savvas Aleksogloun puhe IFOC-Symposiumissa 17.6.2006:<br />
+          <a href="artikkelit/savvas.pdf" target="_blank"
+            >Hallitsevat luonteenpiirteet postmodernissa yhteiskunnassa</a
+          >
+          (pdf)
+        </p>
+        <p> </p>
+        <p> </p>
+        <p> </p>
+        <p> </p>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Suomen Luonneanalyyttinen Kehopsykoterapiayhdistys ry<br />
+        Lönnrotinkatu 42, 00180 Helsinki<br />
+        <a href="mailto:info@kehopsykoterapia.fi" style="color: #f4dada"
+          >info@kehopsykoterapia.fi</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
